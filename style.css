@@ -1,6 +1,7 @@
 body {
   background-image: url("./numbers2.jpg");
-  background-size: contain;
+  background-size: auto;
+  background-repeat: unset;
   height: 100%;
   width: 100%;
 }
