@@ -1,0 +1,67 @@
+body {
+  background-image: url("./numbers2.jpg");
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 450px;
+  height: 450px;
+  background-color: rgb(255, 235, 58);
+  align-items: center;
+  border-radius: 3px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.grid div {
+  width: 100px;
+  height: 100px;
+  background-color: silver;
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
+  margin: 5px;
+  border-radius: 1pc;
+}
+
+.score-container {
+  display: relative;
+  margin-left: 220px;
+  border-radius: 5px;
+}
+
+.score-title {
+  height: 60px;
+  width: 100px;
+  text-align: center;
+  font-size: 40px;
+  border-radius: 10px;
+  text-size-adjust: 10px;
+  background-color: coral;
+}
+
+#score {
+  background: silver;
+  height: 100px;
+  width: 150px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  padding-left: 40px;
+  border-radius: 10px;
+}
+
+#result {
+  background-color: cornflowerblue;
+  height: 100px;
+  width: 150px;
+  text-align: center;
+  font-size: 40px;
+  margin-left: 220px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
